@@ -7,11 +7,11 @@ import { User } from './auth/user.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost', //comando para mostrar el host -- psql -h
+      host: '127.0.0.1',
       port: 5432,
-      username: 'tu_usuario',
-      password: 'tu_contraseña',
-      database: 'tu_base_de_datos',
+      username: 'postgres',
+      password: '1234',
+      database: 'registrovalido',
       entities: [User],
       synchronize: true,
     }),

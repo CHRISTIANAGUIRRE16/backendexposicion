@@ -16,4 +16,3 @@ export class AuthService {
     return { message: 'Registro exitoso' };
   }
 }
-
